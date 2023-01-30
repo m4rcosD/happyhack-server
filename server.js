@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 5005;
 let myServer = app.listen(PORT, () => {
   console.log(`Server listening on port http://localhost:${PORT}`);
 });
-
+/*
 //-----------------SCOKET.IO SETUP-------------------------------
 const { Server } = require("socket.io");
 const io = new Server(myServer, {
@@ -52,3 +52,4 @@ io.on("connection", (socket) => {
     socket.emit("hello", test);
   });
 });
+*/
